@@ -42,7 +42,7 @@
 
     <!-- pc navbar -->
     <nav id="navbar">
-        <div class="pc fill">
+        <div class="fill">
             <ul>
                 <li>
                     <a class="news" href="news">
@@ -116,7 +116,8 @@
                 <div class="swiper-wrapper newsSwiper">
                     <div class="swiper-slide">
                         <img src="asset/pkm-notxt2.png">
-                        <a href="."><span>
+                        <a href=".">
+                            <span>
                                 Pokemon Festival<br> Jakarta 2022!<br>Ada keseruan Apa Saja Ya?
                             </span>
                         </a>
@@ -170,78 +171,244 @@
                     </div>
                     <div class="desc-take">
                         <div class="desc-txt">
-                            <a href="http://japanview.tv/id/videos/19427/">Riku's Tokyo Explore : Takeshita-Dori</a>
+                            <a href="http://japanview.tv/id/videos/19427/" style="color: black; font-weight: 700;">Riku's Tokyo Explore : Takeshita-Dori</a>
                         </div>
                         <div class="date">
-                            <p>2022.05.17</p>
+                            <p style="color: #bbb7b7;">2022.05.17</p>
                         </div>
                     </div>
                 </div>
                 <div class="akihabara">
                     <div class="vid-img">
-                        <a href="https://japanview.tv/id/videos/19296/">
+                        <a href="https://japanview.tv/id/videos/19296/" style="color: black; font-weight: 700;">
                             <img src="asset/riku-2.png">
                         </a>
                     </div>
                     <div class="desc-aki">
                         <div class="desc-txt">
-                            <a href="http://japanview.tv/id/videos/19296/">Riku's Guide Tokyo Explore : Akihabara</a>
+                            <a href="http://japanview.tv/id/videos/19296/" style="color: black; font-weight: 700;">Riku's Guide Tokyo Explore : Akihabara</a>
                         </div>
                     </div>
                     <div class="date">
-                        <p>2022.04.28</p>
+                        <p style="color: #bbb7b7;">2022.04.28</p>
                     </div>
                 </div>
                 <div class="asakusa">
                     <div class="vid-img">
-                        <a href="http://japanview.tv/id/videos/19298/">
+                        <a href="http://japanview.tv/id/videos/19298/" style="color: black; font-weight: 700;">
                             <img src="asset/riku-3.png">
                         </a>
                     </div>
                     <div class="desc-asa">
                         <div class="desc-txt">
-                            <a href="http://">Riku's Guide Tokyo Explore : Asakusa</a>
+                            <a href="http://"style="color: black; font-weight: 700;">Riku's Guide Tokyo Explore : Asakusa</a>
                         </div>
                         <div class="date">
-                            <p>2022.04.28</p>
+                            <p style="color: #bbb7b7;">2022.04.28</p>
                         </div>
                     </div>
                 </div>
                 <div class="shibuya">
                     <div class="vid-img">
-                        <a href="https://japanview.tv/id/videos/19427/">
+                        <a href="https://japanview.tv/id/videos/19427/" style="color: black; font-weight: 700;">
                             <img src="asset/riku04.png">
                         </a>
                     </div>
                     <div class="desc-shi">
                         <div class="desc-txt">
-                            <a href="https://japanview.tv/id/videos/19427/">Riku's Guide Tokyo Explore : Shibuya</a>
+                            <a href="https://japanview.tv/id/videos/19427/" style="color: black; font-weight: 700;">Riku's Guide Tokyo Explore : Shibuya</a>
                         </div>
                         <div class="date">
-                            <p>2022.09.14</p>
+                            <p style="color: #bbb7b7;">2022.09.14</p>
                         </div>
                     </div>
                 </div>
 
 
-                <aside id="side" role="complementary">
-                    <div class="sidebar">
-                        <div class="search">
-                            <span>
-                                Search in Japan View
-                            </span>
-
-                            <!-- form section -->
-                            <form class="search-box" method="get" action=".">
-                                <input type="text" placeholder="What are you looking for?"
-                                    name="What are you looking for?">
-                                <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                            </form>
+                <div class="side-search">
+                    <h3 class="txt-search" style="position: relative; font-size: 17px; left: 61vw; bottom: 48vw;">
+                        Search in Japan View
+                    </h3>
+                    <div class="search_wrap search_wrap_3">
+                        <div class="search-box">
+                            <input type="text" class="input" placeholder="What are you looking for?" style="    border-radius: 20px;
+                            position: relative;
+                            left: 61vw;
+                            width: 30vw;
+                            height: 3vw;
+                            bottom: 47vw;">
+                            <div class="btn btn_common" style="position: relative;
+                            background-color: #d00001;
+                            width: 4vw;
+                            border: 2px solid;
+                            height: 3vw;
+                            left: 89vw;
+                            bottom: 50vw;
+                            border-radius: 0 10vw 10vw 0;">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </div>
                         </div>
-                </aside>
+                    </div>
+                    <div class="tab-container-1">
+                        <div class="tab-triger-1">
+                            <ul>
+                                <li><label for="tab-1" style="z-index: 7;" onclick="openCity(event, 'tab-1')">PR
+                                        Info</label></li>
+                                <li><label for="tab-2" style="left: 66vw;" onclick="openCity(event, 'tab-2')">Popular
+                                        keywords</label></li>
+                            </ul>
+                        </div>
+                        <div class="tab-container-wrap-1">
+                            <input type="radio" checked id="tab-1" name="1">
+                            <div class="tab-content-wrap-1">
+                                <a href="https://japanview.tv/id/videos/">
+                                    <img src="asset/pr-info.png">
+                                </a>
+                            </div>
+                            <input type="radio" id="tab-2" name="1">
+                            <div class="tab-content-box-1">
+                                <a href="https://japanview.tv/id/area/kanto_id/"
+                                    class="tag-cloud-link tag-link-635 tag-link-position-1 "
+                                    style="font-size: 16px;">#Kanto</a>
+                                <a href="https://japanview.tv/id/facility_genre/museum_id/"
+                                    class="tag-cloud-link tag-link-482 tag-link-position-2"
+                                    style="font-size: 16px">#Museum</a>
+                                <a href="https://japanview.tv/id/facility_genre/art_museum_id/"
+                                    class="tag-cloud-link tag-link-246 tag-link-position-3" style="font-size: 16px">#Art
+                                    Museum</a>
+                                <a href="https://japanview.tv/id/area/tokyo_id/"
+                                    class="tag-cloud-link tag-link-633 tag-link-position-4"
+                                    style="font-size: 16px">#Tokyo</a>
+                                <a href="https://japanview.tv/id/facility_genre/aquarium_id/"
+                                    class="tag-cloud-link tag-link-252 tag-link-position-5"
+                                    style="font-size: 16px">#Aquarium</a>
+                                <a href="https://japanview.tv/id/facility_genre/zoo_id/"
+                                    class="tag-cloud-link tag-link-250 tag-link-position-6">#Zoo</a>
+                                <a href="https://japanview.tv/id/area/tohoku_id/"
+                                    class="tag-cloud-link tag-link-307 tag-link-position-7">#Tohoku</a>
+                                <a href="https://japanview.tv/id/prefectures/kanagawa_id/"
+                                    class="tag-cloud-link tag-link-627 tag-link-position-8"
+                                    style="font-size: 16px">#Kanagawa</a>
+                                <a href="https://japanview.tv/id/area/kinki_id/"
+                                    class="tag-cloud-link tag-link-266 tag-link-position-9"
+                                    style="font-size: 16px">#Kinki</a>
+                                <a href="https://japanview.tv/id/prefectures/toukai_id/"
+                                    class="tag-cloud-link tag-link-351 tag-link-position-10"
+                                    style="font-size: 16px">#Toukai</a>
+                                <a href="https://japanview.tv/id/area/hokkaido_id/"
+                                    class="tag-cloud-link tag-link-262 tag-link-position-11">#Hokkaido</a>
+                                <a href="https://japanview.tv/id/area/kyushu_id/"
+                                    class="tag-cloud-link tag-link-393 tag-link-position-12"
+                                    style="font-size: 16px">#Kyushu</a>
+                                <a href="https://japanview.tv/id/area/kyoto_id/"
+                                    class="tag-cloud-link tag-link-367 tag-link-position-13"
+                                    style="font-size: 16px">#Kyoto</a>
+                                <a href="https://japanview.tv/id/school_type/university_id/"
+                                    class="tag-cloud-link tag-link-470 tag-link-position-14"
+                                    style="font-size: 16px">#University</a>
+                                <a href="https://japanview.tv/id/school_type/vocational_school_id/"
+                                    class="tag-cloud-link tag-link-474 tag-link-position-15"
+                                    style="font-size: 16px">#Vocational School</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+    <div id="second-sect">
+        <div class="text-line">
+            <h2>TODAY'S MOST<br>POPULAR</h2>
+        </div>
+        <div class="line"></div>
+        <div id="rank-popular">
+            <div id="rank-1">
+                <p style="font-size: 13px; position: relative; top: 103px; left: 31px;">
+                    <a href="." style="color: #fff;">Pokémon
+                        Festival<br>Jakarta 2022!<br>Ada Keseruan Apa<br>Saja Ya?
+                    </a>
+                </p>
+            </div>
+            <div id="rank-2">
+                <p style="font-size: 13px; position: relative; top: 103px; left: 10px;">
+                    <a href="." style="color: #fff;">“戦” (Sen) Terpilih<br>sebagai Kanji of the Year<br>Jepang Tahun<br>2022
+                    </a>
+                </p>
+            </div>
+            <div id="rank-3">
+                <p style="font-size: 13px; position: relative; top: 98px; left: 12px;">
+                    <a href="." style="color: #fff;">Intip Acara “Seiyuu ni<br>Narou! Let's Be a Voice<br>Actor!” di BINUS<br>University
+                    </a>
+                </p>
+            </div>
+            <div id="rank-4">
+                <p style="font-size: 12px; position: relative; top: 93px; left: 10px;">
+                    <a href="." style="color: #fff;">PenandatangananNota<br>Kesepahaman Program<br>Internship Bersama<br>Universitas Al-Azhar<br>Indonesia
+                    </a>
+                </p>
+            </div>
+            <div id="rank-5">
+                <p style="font-size: 13px; position: relative; top: 93px; left: 12px;">
+                    <a href="." style="color: #fff;">Kunjungan
+                        ke<br>Universitas Padjadjaran<br>dan Universitas<br>Pendidikan Indonesia
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="latest-news">
+        <div class="text-latest">
+            <h2>Latest News</h2>
+        </div>
+        <div class="line2"></div>
+    </div>
+    <div class="news-flex flex-row news-content">
+        <a href="#" class="new-news news-height news-width news-margin md\:mb-0">
+            <div class="new-news-img">
+                <img src="asset/pokemon.jpg" class="object-cover img-h img-w img-position z-0">
+            </div>
+    </div>
+    <div class="new-news-section">
+        <h4 style="color:#000">Pokémon Festival Jakarta 2022!<br>Ada Keseruan Apa Saja Ya?</h4>
+        <span class="news-date" style="color:#00008f">2022.12.19</span>
+    </div>
+    <div class="other-section">
+        <a href="#" class="jv-1 border">
+            <img src="asset/unpad-visit.jpg" class="jv-thumb-1">
+            <div class="jv-1-column">
+                <h5>Kunjungan ke Universitas Padjadjaran dan Universitas Pendidikan Indonesia</h5>
+                <span class="date-jv">2022.11.22</span>
+            </div>
+        </a>
+        <a href="#" class="jv-2 border">
+            <img src="asset/al-azhar.jpg" class="jv-thumb-2">
+            <div class="jv-2-column">
+                <h5>Penandatanganan Nota Kesepahaman Program Internship Bersama Universitas Al-Azhar Indonesia</h5>
+                <span class="date-jv">2022.11.22</span>
+            </div>
+        </a>
+        <a href="#" class="jv-3 border">
+            <img src="asset/sen.jpg" class="jv-thumb-3">
+            <div class="jv-3-column">
+                <h5>“戦” (Sen) Terpilih sebagai Kanji of the Year Jepang Tahun 2022</h5>
+                <span class="date-jv">2022.12.16</span>
+            </div>
+        </a>
+    </div>
+    </a>
+    </div>
+    <div class="view-button">
+        <a href="#" class="more-btn">
+            View More
+        </a>
+    </div>
+    <div class="third-section">
+        <div class="txt-articles">
+            <h2>ARTICLES</h2>
+        </div>
+        <div class="line-3"></div>
+        <div class="articles-slide"></div>
     </div>
 
     <!-- Swiper JS -->
@@ -259,6 +426,21 @@
                 delay: 2500,
             },
         });
+
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-triger-1 ul li label");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tab-triger-1 ul li label");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
     </script>
 </body>
 
